@@ -1,6 +1,6 @@
 
 body{
-    background: #BDBDBD;
+    background: #FFFFFF;
 }
 
 .image-wrap {
@@ -59,21 +59,27 @@ body{
   }
 }
 
-.title {
+/*.title {
     position: absolute;
     width: '-webkit-fill-available';
     overflow: hidden;
     margin: auto;
     
+}*/
+
+#first-header {
+	display: inline-block;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
-.first-header-content img {
+#first-header-body {
+	margin-top: 65px;
+}
+
+.container img {
 	width: 250px;
 	height: 250px;
 	float: right;
+	margin: 10px;
 }
-
-.first-header-body {
-	float: left;
-	background-color: none!important;
-} 
