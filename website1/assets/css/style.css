@@ -67,8 +67,13 @@ body{
     
 }
 
-h1, h2 {
-    background: white;
-    margin: right;
-    
+.first-header-content img {
+	width: 250px;
+	height: 250px;
+	float: right;
 }
+
+.first-header-body {
+	float: left;
+	background-color: none!important;
+} 
