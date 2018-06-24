@@ -18,7 +18,7 @@ body{
   
   -ms-animation: move 40s ease;
   -webkit-animation: move 40s ease;
-  -0-animation: move 40s ease;
+  /*-0-animation: move 40s ease;*/
   -moz-animation: move 40s ease;
   position: absolute;
 }
@@ -73,6 +73,9 @@ body{
 	margin-bottom: 50px;
 }
 
+.getwhite{
+  background-color: white;
+}
 #first-header-body {
 	margin-top: 65px;
 }
@@ -83,3 +86,25 @@ body{
 	float: right;
 	margin: 10px;
 }
+.jumbotron{
+    background-image:    url(https://cdn.history.com/sites/2/2013/12/new-york-city-H.jpeg);
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center; 
+    text-align: center;
+    border-style: solid;
+}
+ 
+.whitecolor, i{
+  background-color: white;
+  opacity: 0.5;
+  border-width:5px;  
+  border-style:solid;
+  background-repeat: repeat-x;
+
+ }
+
+
+  
+  
+  
